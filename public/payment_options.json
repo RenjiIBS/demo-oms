@@ -1,0 +1,17 @@
+[
+    {
+     "paymentOptions": [
+       "Credit Card",
+       "Debit Card",
+       "PayPal"
+     ],
+     "images":[
+      "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1x/external-credit-card-banking-flaticons-lineal-color-flat-icons.png",
+      "https://img.icons8.com/external-xnimrodx-blue-xnimrodx/1x/external-credit-card-payment-xnimrodx-blue-xnimrodx.png",
+      "https://img.icons8.com/color/1x/paypal.png"
+    
+     ]
+ }
+] 
+
+   

@@ -1,0 +1,65 @@
+.confirmation-container {
+    background-size: cover;
+    color:black;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .confirmation-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: blue;
+    margin-top: -62px;
+  }
+
+  
+  .confirmation-container-offer-container {
+    background-color: #ebebf3;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .confirmation-container-offer-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-container-offer-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .confirmation-container-offer-carousel .confirmation-container-offer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .confirmation-container-offer-carousel img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-container-offer-carousel p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .confirmation-container-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .confirmation-container-button:hover {
+    background-color: #edf7fa;
+  }
+  

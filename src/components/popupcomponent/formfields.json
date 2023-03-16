@@ -1,0 +1,48 @@
+[
+    {"category": 1,
+        "fields": [
+          {"label": "Registration Number", "type": "text","name":"RegistrationNumber", "required": true, "validation": "alphanumeric"},
+          {"label": "Confirmation of Registration Number","name":"ConfirmRegistrationNumber", "type": "text", "required": true, "validation": "alphanumeric"},
+          {"label": "Passenger Name", "type": "text", "name":"PassengerName","required": true, "validation": "string"},
+          {"label": "Flight Number", "type": "text", "name":"FlightNumber","required": true, "validation": "alphanumeric"},
+          {"label": "Mobile Number", "type": "tel","name":"MobileNumber","required": true, "validation": "mobile"},
+          {"label": "Email Address", "type": "email","name":"EmailAddress" ,  "validation": "email"},
+          {"label": "Address", "type": "text", "name":"Address", "validation": "string"},
+          {"label": "Zip Code", "type": "text","name":"ZipCode", "validation": "numeric"}
+        ]
+    },
+      {"category": 3,
+        "fields": [
+          {"label": "Passenger Name", "type": "text","name":"PassengerName", "required": true, "validation": "string"},
+          {"label": "Mobile Number", "type": "tel", "name":"MobileNumber", "required": true, "validation": "mobile"},
+          {"label": "Email Address", "type": "email","name":"EmailAddress", "required": true, "validation": "email"},
+          {"label": "Preferred Lounge", "type": "select","name":"PreferredLounge", "required": true,"options": ["First Class Lounge", "Business Class Lounge", "Priority Pass Lounge"]},
+          {"label": "Date of Visit", "type": "date","name":"DateofVisit", "required": true},
+          {"label": "Time of Visit", "type": "time","name":"TimeofVisit","required": false},
+          {"label": "Number of Guests", "type": "number","name":"numberofGuests", "required": true, "validation": "numeric"},
+          {"label": "Special Requests", "type": "textarea","name":"SpecialRequests", "required": false} 
+        ]
+      },
+      {"category": 2,
+      "fields":[
+          {"label": "Order Number", "type": "text","name":"OrderNumber", "required": true, "validation": "alphanumeric"},
+          {"label": "Customer Name", "type": "text","name":"CustomerName", "required": true, "validation": "string"},
+          {"label": "Email Address", "type": "email","name":"EmailAddress", "required": true, "validation": "email"},
+          {"label": "Delivery Address", "type": "text","name":"DeliveryAddress", "required": true, "validation": "string"},
+          {"label": "Zip Code", "type": "text", "required": true,"name":"ZipCode","validation": "numeric"},
+          {"label": "Order Date", "type": "date","name":"OrderDate"},
+          {"label": "Payment Method", "type": "select","required": true,"name":"PaymentMethod", "options": ["Credit Card", "Debit Card", "PayPal", "Cash on Delivery"]}
+        ]
+    },
+      
+    {"category": 4,
+    "fields":[
+          {"label": "Customer Name", "type": "text","name":"CustomerName", "required": true, "validation": "string"},
+          {"label": "Treatment Type", "type": "select","name":"TreatmentType", "required": true, "options": ["Massage", "Facial", "Manicure", "Pedicure"]},
+          {"label": "Treatment Date", "type": "date","name":"TreatmentDate", "required": true},
+          {"label": "Treatment Time", "type": "time","name":"TreatmentTime", "required": true},
+          {"label": "Duration (in minutes)", "type": "number","name":"Duration", "required": true, "validation": "numeric"},
+          {"label": "Therapist Gender Preference", "type": "radio","name":"TherapistGender", "required": true, "options": ["No Preference", "Male", "Female"]}
+        ]
+      }
+      ]

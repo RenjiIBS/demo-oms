@@ -1,0 +1,151 @@
+{
+    "cigarettes" : [
+    { 
+    "name": "Tobacco Products",
+    "producttype": "Cigarettes", 
+    "Offertype": "Cigarette Discount",
+    "offerPrice": true,
+    "offervalue": "50%",
+    "offerType":"flat",
+    "offer": true,
+    "Price": "",
+    "OfferPrice": "",
+    "description": ["Buy your favourite Cigarette at 50% off"],
+    "images": ["/offeritemimage/Tobaccoproducts.png"]
+    },
+    
+    { 
+    "name": "E Cigarettes",
+    "producttype": "Cigarettes", 
+    "Offertype": "Cigarette Discount",
+    "offerPrice": true,
+    "offerType":"flat",
+    "offervalue": "10%",
+    "Price": "",
+    "OfferPrice": "",
+    "description": ["Mulberry Cigerettes upto 10% off in duty free"],
+    "images": ["/offeritemimage/ecigrate.png"]
+    }],
+    
+    "electronics": [
+    { 
+    "name": "Sony Home Audio",
+    "producttype": "electronics", 
+    "Offertype": "Cigarette Discount",
+    "offervalue": "10%",
+    "currency": "AED",
+    "unitPrice": "4444",
+    "offerPrice": "3999",
+    "description": ["Get Sony Home Audio 10% Discount Limited time offer"],
+    "images": ["/offeritemimage/SonyHomeAudio.png"]
+    }],
+    
+    "liquor": [{ 
+    "name": "Premium Scotch",
+    "producttype": "Liquor", 
+    "Offertype": "Liquor Discount",
+    "offerPrice": true,
+    "offerType":"flat",    
+    "offervalue": "20%",
+    "offer": true,
+    "Price": "",
+    "OfferPrice": "",
+    "description": ["20% Off on Premium Scotches"],
+    "images": ["/offeritemimage/Premiumscotch.png"]
+    }],
+    
+    "sunglasses": [{ 
+    "name": "Oakley Sunglasses",
+    "producttype": "Sunglasses", 
+    "Offertype": "Partner Driven",
+    "offer": true,
+    "offervalue": "30%",
+    "Price": "AED 650",
+    "offerPrice": "AED 195",
+    "description": ["30% Off on Oakley Limited time offer"],
+    "images": ["/offeritemimage/Oakleysunglasses.png"]
+    }],
+    
+    "food and beverages": [{ 
+    "name": "Dave's Pizza Meal & Wine",
+    "producttype": "Food And Beverages", 
+    "Offertype": "Partner Driven",
+    "offervalue": "30%",
+    "Price": "AED 20",
+    "offerPrice": "AED 20",
+    "description": ["Pizza meal at just AED 20"],
+    "images": ["/offeritemimage/pizzaoffer.png"]
+    }],
+    
+    
+    "fragrances": [{ 
+    "name": "Hugo Men's Perfumes",
+    "producttype": "Fragrances", 
+    "Offertype": "Partner Driven",
+    "offerPrice": true,
+    "offerType":"flat",
+    "offer": true,
+    "offervalue": "50%",
+    "Price": "No price",
+    "OfferPrice": "",
+    "description": ["Hugo Men 50% discount on limited stock"],
+    "images": ["/offeritemimage/hugeboss.png"]
+    }],
+    
+    "wine": [{ 
+    "name": "Premium Wines",
+    "producttype": "Wine", 
+    "Offertype": "Liquor Discount",
+    "offervalue": "25%",
+    "offerType":"flat",  
+    "offerPrice": true,
+    "offer": true,
+    "Price": "",
+    "OfferPrice": "",
+    "description": ["25% Off on Premium Wines"],
+    "images": ["/offeritemimage/Premiumwines.png"]
+    }],
+    
+    "chocolates": [{ 
+    "name": "All Chocolates",
+    "producttype": "Chocolates", 
+    "Offertype": "Partner Driven",
+    "offervalue": "60%",
+    "offerPrice": true,
+    "offer": true,
+    "offerType":"flat",
+    "Price": "",
+    "OfferPrice": "",
+    "description": ["60% off on Chocolates"],
+    "images": ["/offeritemimage/Allchocolates.png"]
+    }],
+    
+    "toys": [{ 
+    "name": "Battery Cars",
+    "producttype": "Toys", 
+    "Offertype": "Partner Driven",
+    "offervalue": "40%",
+    "currency": "AED",
+    "unitPrice": "999",
+    "offerPrice": "399.6",
+    "description": ["40% off on Battery Cars"],
+    "images": ["/offeritemimage/Batterycars.png"]
+    }],
+    "bags": [
+    { 
+        "name": "Trolleys & Duffle Bags",
+        "producttype": "Bags", 
+        "Offertype": "Partner Driven",
+        "offervalue": "40%",
+        "offer": true,
+        "offerPrice": "AED 149 onwards",
+        "OfferPrice": "",
+        "description": ["40% off on bags"],
+        "images": ["/offeritemimage/Trolleysdufflebags.png"]
+    }
+    
+    ]
+    
+    
+    }
+    

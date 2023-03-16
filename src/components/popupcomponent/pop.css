@@ -1,0 +1,131 @@
+.cartpop-modal .modal-content {
+  background-color: #e6f2ff;
+  border-radius: 22px;
+  border-color: transparent;
+}
+.cartpop-modal .modal-footer {
+  border-top: none;
+}
+/*.popup-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}*/
+
+.cartpopform-group {
+  
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.cartpopform-group label {
+  font-style: Regular;
+  display: inline-block;
+  margin-bottom: 5px;
+  /*color: #333;*/
+  font-size: 16px;
+  align-self: auto;
+  font-family: Roboto;
+  /*font-weight: 400;*/
+  font-weight: bold;
+  margin-right: 10px;
+}
+/*.ccartpopform-group label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+ 
+}*/
+
+
+.cartpopform-group input,
+.cartpopform-group select {
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 0.25rem;
+  font-size: 12px;
+  width: 100%;
+  height: 29px;
+  border: 1px solid #ced4da;
+  
+}
+
+
+.cartpopform-group input:hover,
+.cartpopform-group select:hover,
+.cartpopform-group input:focus,
+.cartpopform-group select:focus {
+  border-color: #007bff;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.25);
+}
+
+
+
+@media screen and (min-width: 576px) {
+  .cartpopform-group {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /*label {
+    margin-right: 10px;
+    width: 150px;
+    text-align: right;
+  }*/
+}
+
+.cartpopfields-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cartpopform-group {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex: 0 1 calc(50% - 20px);
+  flex-direction: column;
+}
+
+
+.cartpopimg-box{
+margin-bottom: 1.3rem!important;
+border-radius: 16px;
+}
+.cartpop-title{
+text-transform: uppercase;
+font-size: 18px;
+
+  align-self: auto;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.cartpop-desc{
+font-size: 15px;
+  align-self: auto;
+  
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.2rem;
+  font-stretch: normal;
+}
+.cartpopbottom-buttons{
+font-size: 15px;
+  font-weight: 400;
+  border-radius: 22px;
+  background-color: grey;
+  color: black;
+}
+
+.pop-price{
+    text-transform: uppercase;
+    font-size: 20px;
+    align-self: auto;
+    font-family: Roboto;
+    font-weight: bold;
+    color: maroon;
+ }

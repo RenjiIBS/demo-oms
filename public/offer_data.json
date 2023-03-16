@@ -1,0 +1,93 @@
+[
+    {
+        "id": 2,
+        "name": "Chair Massage",
+        "description": [
+            "Choose from a range of massage techniques to suit your needs",
+            "Experience the ultimate relaxation with our chair massage",
+            "Try our Chair Massage Spa and feel refreshed and energized!"
+        ],
+        "offerText": "",
+        "currency": "$",
+        "unitPrice": 100.00,
+        "offerPrice": 80.00,
+        "offerType": "flat",
+        "airportServiceItem": {
+            "id": 17,
+            "serviceName": "Chair Massage",
+            "description": [
+                "Choose from a range of massage techniques to suit your needs",
+                "Experience the ultimate relaxation with our chair massage",
+                "Try our Chair Massage Spa and feel refreshed and energized!"
+            ],
+            "offerText": "",
+            "currency": null,
+            "unitPrice": 100.00,
+            "unitsInStock": 0,
+            "serviceItemType": null,
+            "offer": false,
+            "images": [
+                "https://img.grouponcdn.com/deal/2simaCVUGkT6uBYTsVHWi7VvATRd/2s-2048x1229/v1/c870x524.jpg",
+                "https://media.istockphoto.com/id/817455136/photo/young-woman-relaxing-on-the-massaging-chair.jpg?s=612x612&w=0&k=20&c=5u22nsXZzry4VOGp81VK43b28E5MfMgwVzWY7qKMUbw="
+            ]
+        },
+        "active": true,
+        "offer": true,
+        "serviceItemType": {
+            "id": 4,
+            "serviceType": "Spa",
+            "active": true
+        },
+        "images": [
+            "https://img.freepik.com/free-vector/special-offer-creative-sale-banner-design_1017-16284.jpg",
+            "https://img.grouponcdn.com/deal/2simaCVUGkT6uBYTsVHWi7VvATRd/2s-2048x1229/v1/c870x524.jpg",
+            "https://media.istockphoto.com/id/817455136/photo/young-woman-relaxing-on-the-massaging-chair.jpg?s=612x612&w=0&k=20&c=5u22nsXZzry4VOGp81VK43b28E5MfMgwVzWY7qKMUbw="
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Calvin Klein One",
+        "description": [
+            "One fragrance for all",
+            "An iconic fragrance for modern times",
+            "Refreshing green tea joins with rose and violet, culminating in a finish of musk and amber."
+        ],
+        "offerText": "",
+        "currency": "$",
+        "unitPrice": 60.00,
+        "offerPrice": 40.00,
+        "offerType": "percent",
+        "airportServiceItem": {
+            "id": 15,
+            "serviceName": "Calvin Klein One",
+            "description": [
+                "One fragrance for all",
+                "An iconic fragrance for modern times",
+                "Refreshing green tea joins with rose and violet, culminating in a finish of musk and amber."
+            ],
+            "offerText": "Multiple Offers Available!",
+            "currency": null,
+            "unitPrice": 60.00,
+            "unitsInStock": 0,
+            "serviceItemType": null,
+            "offer": false,
+            "images": [
+                "https://m.media-amazon.com/images/I/71MQXvVEMsL._SY450_.jpg",
+                "https://m.media-amazon.com/images/I/510RY23HhcL._SY450_.jpg",
+                "https://m.media-amazon.com/images/I/61WbB3tZ+iL._SY450_.jpg"
+            ]
+        },
+        "active": true,
+        "offer": true,
+        "serviceItemType": {
+            "id": 2,
+            "serviceType": "Shopping",
+            "active": true
+        },
+        "images": [
+            "https://img.freepik.com/free-vector/special-offer-creative-sale-banner-design_1017-16284.jpg",
+            "https://m.media-amazon.com/images/I/71MQXvVEMsL._SY450_.jpg",
+            "https://m.media-amazon.com/images/I/510RY23HhcL._SY450_.jpg"
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+.searchBox{
+width: 357px;
+
+}
+.navBar{
+background-color: #26238D!important;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 26px;
+}
+.p-size{
+    padding-top: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightNav{
+    justify-content: flex-end;
+    flex: 1.5!important;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.searchRight{
+    flex: 2;
+    width: 357px;
+    height: 26px;
+    justify-content: flex-end;
+    display: flex;
+    border-radius: 20px!important;
+    
+}
+#airport{
+    flex: 1;
+    margin-bottom: 2px;
+}
+.imgDimension{
+
+    width: 30px;
+    height: 30px;
+}
+.navH{
+    height: 59px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    
+    color: #fff!important;
+  }
+  .navBar:hover{
+      color:#ffff
+  }
+  .subtotal-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  .logout_popup .modal-content {
+    height: 200px; 
+  }
+  .total-cart{
+    position: absolute;
+    height: 13.333333969116211px;
+    width: 13.333333969116211px;
+    padding: 3px 3px 2px 3px;
+    background-color: red;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 6px;
+    background: #FF0000;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: inherit;
+    margin: auto;
+  }
+  

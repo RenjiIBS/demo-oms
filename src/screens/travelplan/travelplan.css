@@ -1,0 +1,213 @@
+.travel-plan-card{
+  box-shadow: (0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23));
+  background-color: #1980DE;
+  width: 1231px;
+  height: 406px;
+  border-radius: 50px;
+  }
+
+  
+  .cardWrap {
+    width: 79em;
+    margin: 3em auto;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    background: #1980DE;
+    height: 22.37em;
+    float: left;
+    position: relative;
+    padding: 1.9em;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+  }
+  .travel-purchase{
+    position: absolute;
+    width: 140px;
+    height: 31px;
+    left: 34px;
+    top: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.5875px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  .travel-card{
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 34px;
+    top: 150px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.5875px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+  }
+
+  .travel-wishlist{
+    position: absolute;
+    width: 136px;
+    height: 31px;
+    left: 34px;
+    top: 250px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.5875px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .cardLeft {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: radial-gradient(circle at bottom right, transparent 20px, #1980DE 20px);
+    width: 19.5em;
+  }
+  
+  .cardRight {
+    width: 49.5em;
+    border-left: 0.886249px dashed #FFFFFF;
+    background: radial-gradient(circle at bottom left,transparent 20px, #1980DE 20px);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  #travel-arrow{
+    margin-left: 12px;
+  }
+
+  .qwer{
+
+
+    width: 84.38px;
+    height: 47.86px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.45px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  .asd{
+    width: 135px;
+    height: 30px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .zxc{
+    width: 135px;
+    height: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+  }
+  
+  .curve{
+    /* Ellipse 7 */
+
+
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 305px;
+    top: -18px;
+
+    background: #D9D9D9;
+  }
+  .cardRight{
+    padding-top: .75%;
+  }
+  .mini-side-headings{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    padding-top: 37px;
+  }
+  .mini-side-carousel{
+   margin-bottom: .5rem;
+  }

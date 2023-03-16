@@ -1,0 +1,78 @@
+[
+	{
+		"name": "Valet Parking",
+		"description": [
+			"Enjoy Hassle-Free Parking with our Valet Service!",
+			"Say goodbye to parking stress and frustration",
+			"Trained attendants will park and retrieve your vehicle for you"],
+		"offerText": "",
+		"isOffer": false,
+		"unitPrice": 20.00,
+		"unitsInStock": 1,
+		"active": true,
+		"images": [
+			"https://poloandtweed.com/wp-content/uploads/2018/07/valet.jpg",
+			"https://cdn.vox-cdn.com/thumbor/VoJw3remskRFf5JJlfM3UtnIGHg=/0x0:2000x1333/920x613/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70000006/762117421_huge.0.jpg",
+			"https://smsvalet.com/wp-content/uploads/2016/11/How-TEZ-Is-Changing-the-Way-You-Valet.jpg"],
+		"serviceItemType": {
+			"id":1
+		}
+	},
+	{
+		"name": "Premium Lounge",
+		"description": [
+			"Escape the chaos and relax in a peaceful environment",
+			"Experience luxury and comfort in our Premium Lounge",
+			"Enjoy complimentary drinks and snacks, Stay connected with free Wi-Fi and charging stations"],
+		"offerText": "20% off on Initial Purchase!",
+		"isOffer": false,
+		"unitPrice": 100.00,
+		"unitsInStock": 1,
+		"active": true,
+		"images": [
+			"https://www.plazapremiumlounge.com/PlazaPremiumLounge/media/PPLMedia/Pages/Home/Sliders/Slider_6_PPL_REP_intdep_honeycomb-seats_800x600.jpg?ext=.jpg",
+			"https://www.plazapremiumlounge.com/PlazaPremiumLounge/media/PPLMedia/Lounges/LHR/LHR_Dep_T2/LHR_Dep_T2_1600x800_Web2.jpg?ext=.jpg",
+			"https://mediaim.expedia.com/localexpert/249684/74670c79-73a0-4c20-8b7a-c9e89502d4ad.jpg?impolicy=resizecrop&rw=1005&rh=565"],
+		"serviceItemType": {
+			"id":3
+		}
+	},
+	{
+		"name": "Calvin Klein One",
+		"description": [
+			"An iconic fragrance for modern times",
+			"One fragrance for all",
+			"Refreshing green tea joins with rose and violet, culminating in a finish of musk and amber."],
+		"offerText": "Multiple Offers Available!",
+		"isOffer": false,
+		"unitPrice": 60.00,
+		"unitsInStock": 1,
+		"active": true,
+		"images": [
+			"https://m.media-amazon.com/images/I/510RY23HhcL._SY450_.jpg",
+			"https://m.media-amazon.com/images/I/61WbB3tZ+iL._SY450_.jpg",
+			"https://m.media-amazon.com/images/I/71MQXvVEMsL._SY450_.jpg"],
+		"serviceItemType": {
+			"id":2
+		}
+	},
+	{
+		"name": "Terminal Parking",
+		"description": [
+			"Park your vehicle just steps away from Terminal South End",
+			"Affordable rates to fit any budget",
+			"Shuttle service available to take you to your terminal"],
+		"offerText": "",
+		"isOffer": false,
+		"unitPrice": 10.00,
+		"unitsInStock": 1,
+		"active": true,
+		"images": [
+			"https://static1.holidayextras.com/libraryimages/4803-luton-airport-terminal-car-park-1-images-5.jpg",
+			"https://i0.wp.com/intheplayroom.co.uk/wp-content/uploads/2022/03/michael-fousert-CrU3lUW2jRk-unsplash-scaled.jpg?fit=2560%2C1708&ssl=1",
+			"https://thenewswheel.com/wp-content/uploads/2017/05/Feature-760x507.jpg"],
+		"serviceItemType": {
+			"id":5
+		}
+	}
+]

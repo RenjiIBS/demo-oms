@@ -1,0 +1,44 @@
+.travel-container{   
+width: 1150px;
+height: 350px;
+left: 0px;
+top: 0px;
+background: #1980DE;
+border-radius: 50px;
+}
+.frmto-txt{
+width: 84.38px;
+height: 47.86px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 35.45px;
+line-height: 42px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.vertical_dotted_line
+{
+width: 370px;
+height: 0px;
+left: -0.48px;
+top: 18px;
+border: 0.886249px dashed #FFFFFF;
+transform: rotate(90deg);
+} 
+.jurney-info{
+width: 366px;
+height: 31px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26.5875px;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #FFFFFF;
+}
+.top-buffer { margin-top:20px; }

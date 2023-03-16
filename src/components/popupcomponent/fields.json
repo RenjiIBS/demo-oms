@@ -1,0 +1,66 @@
+
+
+
+[  {    "category": 1,    
+       
+  "fields": [  
+            {  
+               "label": "Vehicle Type",
+                "name": "vehicle_type",
+                "type": "select",
+                 "options": ["Car", "Truck", "SUV", "Motorcycle"]
+  },
+  {
+    "label": "License Plate Number",
+    "name": "license_plate_number",
+    "type": "text"
+  }
+
+]
+},
+{
+"category": 3,
+"fields": [
+  {
+    "label": "Number of Guests",
+    "name": "num_guests",
+    "type": "number"
+  },
+  {
+    "label": "Food and Beverage",
+    "name": "food_beverage_preferences",
+    "type": "textarea"
+  }
+]
+},
+{
+"category": 4,
+
+"fields": [
+  {
+    "label": "Treatment",
+    "name": "treatment",
+    "type": "select",
+    "options": ["Massage", "Facial", "Manicure", "Pedicure"]
+  },
+  {
+    "label": "Date and Time",
+    "name": "preferred_date_time",
+    "type": "datetime-local"
+  }
+
+]
+},
+{
+"category": 2,
+"fields": [
+  {
+    "label": "Number of Items",
+    "name": "num_items",
+    "type": "number"
+  }
+  
+]
+}
+
+]

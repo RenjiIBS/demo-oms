@@ -1,0 +1,73 @@
+
+.main-container{
+display: flex;
+justify-content: center;
+padding-top: 19px;
+}
+.servce-s{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4px 25px;
+gap: 12px;
+
+width: 124px;
+height: 76px;
+
+background: #F8FAFB;
+border-radius: 10px;
+}
+
+.item{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 25px;
+gap: 12px;
+
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 82px;
+height: 36px;
+}
+.title{
+    width: 89px;
+    height: 14px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #26238D;
+/* identical to box height */
+
+text-align: center;
+
+color: #26238D;
+}
+/*css for selected icon colour change */
+.servce-s.selected {
+    color: white;
+    background-color: #004164;
+  }
+  
+  .servce-s.selected:hover {
+    background-color: #004164;
+  }
+  
+  .servce-s.selected .item img {
+    filter: invert(100%) brightness(200%);
+  }
+  
+  .servce-s.selected .title {
+    color: white;
+  }
+

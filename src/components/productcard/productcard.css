@@ -1,0 +1,237 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: oxygen, sans-serif;
+    margin: 2erm;
+}
+.wrapper{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12erm,16erm));
+    gap: 2erm;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.product-card{
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-card-container{
+    height: 99%;
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 2% 1% 3%;
+    float: left;
+}
+.product-card-service-body{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2%;
+}
+.product-card-offer-body{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1%;
+    color: black;
+}
+
+.product-card-description{
+    height: 75%;
+    width: 100%;
+    position: relative;
+    top: 25%;
+    transform: translate(0, -50%);
+    text-align: left;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* number of lines to display */
+    line-height: 1.5; /* set to match the line-height of your product description text */
+    max-height: 3em;
+    text-overflow: clip;
+}
+.description-more{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.product-card-cost{
+    position: relative;
+    padding-top: 3%;
+    height: 30%;
+    color: maroon;
+    font-size: 22px;
+    text-align: center;
+    display: inline;
+}
+.product-card-offer{
+    color: #26238D;
+    position: relative;
+    text-align: center;
+}
+.product-card-popular{
+    position: relative;
+    float: left;
+    font-size: 12px;
+    height: 15%;
+    bottom: 0%;
+}
+.image-container{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    object-fit:cover;
+}
+.offer-image-container{
+    position: relative;
+    height: 45%;
+    width: 100%;
+    object-fit:cover;
+}
+.card-image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+}
+.product-card-title{
+    vertical-align: top;
+    font-size: 18px;
+}
+
+/* .card:hover {
+    transform: scale(1.01);
+}
+.card:hover .card-btn{
+    background: rgb(1, 1, 88);
+    color: white;
+} */
+.title-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 6%;
+}
+
+.product-card-icons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.product-card-offer-icons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.card-favourites{
+    vertical-align: middle;
+    width: 15%;
+}
+.card-cart{
+    position: relative;
+    float: left;
+    
+}
+.card-more{
+    position: relative;
+    float: right;
+    color: #1D1C4A;
+}
+.card-wishlist{
+    position: relative;
+    float: center;
+}
+
+.image-carousel{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.description-carousel{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10%;
+    height: 13px;
+  }
+  
+.image-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+  
+.image-dot.active {
+    background-color: white;
+}
+.description-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10%;
+    height: 13px;
+  }
+  
+.description-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+  
+.description-dot.active {
+    background-color: black;
+} 

@@ -1,0 +1,28 @@
+[
+    {
+        "id": 2,
+        "flightNo": "IAR0122",
+        "airline": "Indian Airline",
+        "source": "BLR",
+        "destination": "TRV",
+        "status": "SCHEDULED",
+        "scheduleDate": "25-02-2023",
+        "scheduleTime": "08:20:45",
+        "destLocation": "Trivandrum",
+        "terminal":"2",
+        "gate":"12"
+    },
+    {
+        "id": 3,
+        "flightNo": "IAR0152",
+        "airline": "Indian Airline",
+        "source": "BLR",
+        "destination": "DEL",
+        "status": "SCHEDULED",
+        "scheduleDate": "25-02-2023",
+        "scheduleTime": "13:50:45",
+        "destLocation": "Delhi",
+        "terminal":"3",
+        "gate":"13"
+    }
+]
